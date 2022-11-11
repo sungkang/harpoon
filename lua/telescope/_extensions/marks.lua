@@ -111,6 +111,7 @@ end
 
 return function(opts)
     opts = opts or {}
+    opts = require('telescope._extensions')._config.harpoon
 
     pickers
         .new(opts, {
